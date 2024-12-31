@@ -46,11 +46,13 @@ withDefaults(
         />
       </div>
     </div>
-    <div class="collapse-content">
-      <slot
-        name="body"
-        v-bind="{ checked }"
-      />
+    <div class="collapse-content text-left">
+      <div class="mt-5">
+        <slot
+          name="body"
+          v-bind="{ checked }"
+        />
+      </div>
     </div>
   </div>
 </template>
