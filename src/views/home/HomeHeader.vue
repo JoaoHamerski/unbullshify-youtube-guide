@@ -5,5 +5,8 @@
       <br>
       <span class="text-white">GUIDE</span>
     </h1>
+    <div class="my-5">
+      A comprehensive and simple guide to improve your YouTube experience
+    </div>
   </div>
 </template>
