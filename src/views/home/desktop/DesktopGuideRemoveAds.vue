@@ -46,7 +46,7 @@ import ChromiumBrowserIcons from '../_partials/ChromiumBrowserIcons.vue';
       </div>
       <ul class="list">
         <li>
-          Download <b>Ublock Origin Lite</b> add-on for Firefox <AppLink
+          Download <b>Ublock Origin</b> add-on for Firefox <AppLink
             href="https://addons.mozilla.org/firefox/addon/ublock-origin/"
             target="_blank"
           >
