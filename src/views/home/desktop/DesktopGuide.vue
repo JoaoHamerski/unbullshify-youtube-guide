@@ -6,8 +6,26 @@ import DesktopGuideSkipSponsor from './DesktopGuideSkipSponsor.vue'
 import HomeAccordions from '../HomeAccordions.vue';
 
 const DESKTOP_GUIDE_ITEMS = [
-  { title: 'Remove basic ads', value: 'remove-basic-ads', component: DesktopGuideRemoveAds},
-  { title: 'Automatically skip in-video sponsors', value: 'skip-sponsors', component: DesktopGuideSkipSponsor},
+  {
+    title: 'Remove basic ads',
+    value: 'remove-basic-ads',
+    component: DesktopGuideRemoveAds
+  },
+  {
+    title: 'Automatically skip in-video sponsors',
+    value: 'skip-sponsors',
+    component: DesktopGuideSkipSponsor
+  },
+  {
+    title: 'Remove click bait thumbnails',
+    value: 'click-bait-thumbnails',
+    component: DesktopGuideSkipSponsor
+  },
+  {
+    title: 'Return dislike button',
+    value: 'click-bait-thumbnails',
+    component: DesktopGuideSkipSponsor
+  }
 ]
 
 </script>

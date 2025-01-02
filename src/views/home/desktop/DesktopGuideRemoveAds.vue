@@ -4,15 +4,19 @@ import { Icon } from '@iconify/vue/dist/iconify.js';
 import ChromiumBrowserIcons from '../_partials/ChromiumBrowserIcons.vue';
 </script>
 <template>
-  <div class="flex">
-    <div class="w-1/2">
-      <div class="flex justify-center text-[2rem] gap-3">
-        <ChromiumBrowserIcons />
-      </div>
-      <div class="text-center text-gray-500 text-sm mt-3 mb-5">
-        And other chromium based browsers...
-      </div>
-      <div class="mx-5">
+  <div class="mx-5">
+    <div class="text-center mb-10">
+      Remove the basic ads playing at the beginning or middle of videos
+    </div>
+
+    <div class="flex">
+      <div class="w-1/2">
+        <div class="flex justify-center text-[2rem] gap-3">
+          <ChromiumBrowserIcons />
+        </div>
+        <div class="text-center text-gray-500 text-sm mt-3 mb-5">
+          And other chromium based browsers...
+        </div>
         <ul class="list">
           <li>
             Download <b>Ublock Origin Lite</b> extension for your browser
@@ -38,23 +42,23 @@ import ChromiumBrowserIcons from '../_partials/ChromiumBrowserIcons.vue';
           </li>
         </ul>
       </div>
-    </div>
 
-    <div class="w-1/2">
-      <div class="flex justify-center text-[2rem] gap-3 mb-5">
-        <Icon icon="logos:firefox" />
+      <div class="w-1/2">
+        <div class="flex justify-center text-[2rem] gap-3 mb-5">
+          <Icon icon="logos:firefox" />
+        </div>
+        <ul class="list">
+          <li>
+            Download <b>Ublock Origin</b> add-on for Firefox <AppLink
+              href="https://addons.mozilla.org/firefox/addon/ublock-origin/"
+              target="_blank"
+            >
+              here
+            </AppLink>
+          </li>
+          <li>Click on "Add to Firefox" button. And it must be working now</li>
+        </ul>
       </div>
-      <ul class="list">
-        <li>
-          Download <b>Ublock Origin</b> add-on for Firefox <AppLink
-            href="https://addons.mozilla.org/firefox/addon/ublock-origin/"
-            target="_blank"
-          >
-            here
-          </AppLink>
-        </li>
-        <li>Click on "Add to Firefox" button. And it must be working now</li>
-      </ul>
     </div>
   </div>
 </template>
